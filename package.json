@@ -1,13 +1,15 @@
 {
-  "name": "ts-timer",
-  "version": "1.0.0",
+  "name": "@r0sari0/ts-timer",
+  "email": "r0sari0@wp.pl",
+  "version": "1.0.2",
   "description": "Timer",
   "types": "dist/*.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "format": "./node_modules/tslint/bin/tslint --fix \"src/**/*.ts\"",
-    "prepare" : "npm run build"
+    "prepare" : "npm run build",
+    "prepublishOnly": "tsc"
   },
   "repository": {
     "type": "git",
