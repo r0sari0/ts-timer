@@ -1,0 +1,24 @@
+{
+  "name": "ts-timer",
+  "version": "1.0.0",
+  "description": "Timer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r0sari0/ts-timer.git"
+  },
+  "author": "r0sari0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r0sari0/ts-timer/issues"
+  },
+  "homepage": "https://github.com/r0sari0/ts-timer#readme",
+  "devDependencies": {
+    "ts-loader": "^5.2.1",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1"
+  }
+}
